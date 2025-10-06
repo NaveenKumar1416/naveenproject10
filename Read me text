@@ -1,0 +1,14 @@
+This project automates the process of creating and managing Linux users and groups for a growing developer team.
+It is designed as part of a DevOps assessment task, showcasing practical Bash scripting, user management, and system automation skills.
+Reads usernames and groups from a text file
+Creates users, personal groups, and assigns additional groups
+Generates strong random passwords
+Logs all activities
+Stores credentials securely for administrative use
+===== User Creation Script Started on Sun Oct 5 18:00:00 2025 =====
+[+] Group 'light' created.
+[+] User 'light' created with home directory.
+[+] User 'light' added to group 'sudo'.
+[+] Password set for 'light'.
+[+] Permissions set for /home/light
+===== Script Completed Successfully on Sun Oct 5 18:02:10 2025 =====
